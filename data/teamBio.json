@@ -1,0 +1,50 @@
+[
+  {
+    "IMAGE": "/uploads/Ellipse 15.png",
+    "NAME": "Nikolas Moore",
+    "DESCRIPTION": "Founder and CEO",
+    "ALT": "Nik Moore photo"
+  },
+  {
+    "IMAGE": "/uploads/Ellipse 29.png",
+    "NAME": "JUSTIN OVERTON",
+    "DESCRIPTION": "COO",
+    "ALT": "Justin Overton photo"
+  },
+  {
+    "IMAGE": "/uploads/mike.png",
+    "NAME": "MIKE CHOI",
+    "DESCRIPTION": "CTO",
+    "ALT": "Mike Choi photo"
+  },
+  {
+    "IMAGE": "/uploads/Ellipse 17.png",
+    "NAME": "DYLAN CRONKHITE",
+    "DESCRIPTION": "Distinguished Engineer",
+    "ALT": "Dylan Cronkhite photo"
+  },
+  {
+    "IMAGE": "/uploads/Ellipse 28.png",
+    "NAME": "JACK TRANSUE",
+    "DESCRIPTION": "Principal Engineer",
+    "ALT": "Jack Transue photo"
+  },
+  {
+    "IMAGE": "/uploads/Ellipse 19.png",
+    "NAME": "GRACE TRANSUE",
+    "DESCRIPTION": "Lead UX/UI Designer",
+    "ALT": "Grace Transue photo"
+  },
+  {
+    "IMAGE": "/uploads/Ellipse 30.png",
+    "NAME": "BRADY Pierce",
+    "DESCRIPTION": "CFO",
+    "ALT": "Brady Pierce photo"
+  },
+  {
+    "IMAGE": "/uploads/Ellipse 31.png",
+    "NAME": "GAVIN WELTON",
+    "DESCRIPTION": "Chief of Product",
+    "ALT": "Gavin Welton photo"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "url": "/#about",
+    "title": "About"
+  },
+  {
+    "url": "/#battles",
+    "title": "Gameplay"
+  },
+  {
+    "url": "/#roadmap",
+    "title": "Roadmap"
+  },
+  {
+    "url": "/#team",
+    "title": "Team"
+  },
+  {
+    "url": "/#faq",
+    "title": "FAQ"
+  },
+  {
+    "url": "/whitepaper",
+    "title": "WhitePaper"
+  }
+]

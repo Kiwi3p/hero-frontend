@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Telex&display=swap");
+
+@font-face {
+  font-family: "LEMONMILK-Regular";
+  src: url("/fonts/LEMONMILK-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  color: #fff;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.bg-galaxy-purple {
+  background-color: #3c2d59;
+}
+
+.height-1000 {
+  height: 1000px;
+  width: 1000px;
+}
+
+.twofivefive {
+  font-size: 2.55rem;
+}
+
+p {
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+}
+
+.hero-purple {
+  color: #cec6ff;
+}
+
+.doc-transform {
+  transform: scale(0.8);
+}
+
+.c18 {
+  max-width: 100% !important;
+}
+
+.google-doc {
+  height: 100%;
+  width: 70%;
+}
+
+.dongle-bold {
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+}
+
+.dongle {
+  font-family: "Dongle", sans-serif;
+}
+
+.xxx-large {
+  font-size: xxx-large;
+}
+
+.telex {
+  font-family: "LEMONMILK-Regular";
+}
+
+/* .background-game {
+  background-image: url("/img/nft 1.png");
+  background-size: cover;
+} */
+
+h1 {
+  font-family: "LEMONMILK-Regular";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.font-title {
+  font-size: 9rem;
+  letter-spacing: 10px;
+  line-height: 1;
+  text-align: center;
+}
+
+.scroll {
+  background-color: #a1572f;
+  color: #eef;
+}
+
+.bg-doodle {
+  background-image: url("/img/galaxy-v2.svg");
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #a27dff;
+}
+
+.image-size {
+  max-height: 70% !important;
+  max-width: 50% !important;
+  width: 214rem;
+}
+
+/* .vw-test {
+  width: 75vw;
+} */
+
+.two-rem {
+  font-size: 2rem;
+}
+
+.new-width {
+  margin: 0 41px;
+  width: 320rem;
+}
+
+.new-width2 {
+  margin: 0 -180px;
+  width: 140rem;
+}
+
+.new-width-left {
+  margin: 0 0px;
+  width: 320rem;
+}
+
+.purple {
+  color: #cec6ff;
+}
+
+.dark-purple {
+  color: #412F5A;
+}
+
+.mobile-paper {
+  /* transform: scale(1.5); */
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pdf-bg {
+  /* background-color: rgb(60, 45, 89, 0.8); */
+  z-index: 20;
+  padding: 44px 114px;
+  position: relative;
+}
+
+.inc-mint-number {
+  width: 80px !important;
+  margin: 0px 20px;
+}
+
+.connect-wallet-button {
+  background: linear-gradient(
+    94.81deg,
+    #dbdada 1.6%,
+    #a29f9f 26.82%,
+    #c8c4c4 51.81%,
+    #9a9999 75.31%,
+    #c6c2c2 92.89%
+  );
+  border-radius: 50px;
+  width: 247px;
+  height: 80px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #001f39;
+  font-family: "LEMONMILK-Regular";
+  box-shadow: 0px 0px 38px 14px rgba(190, 216, 219, 0.57);
+}
+
+.connect-wallet-button:hover {
+  filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+}
+
+.wallet-model {
+  background: linear-gradient(
+    94.81deg,
+    #dbdada 1.6%,
+    #a29f9f 26.82%,
+    #c8c4c4 51.81%,
+    #9a9999 75.31%,
+    #c6c2c2 92.89%
+  );
+  color: #001f39;
+}
+
+@media only screen and (max-width: 640px) {
+  .font-title {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    line-height: 1;
+  }
+
+  .mobile-paper {
+    transform: scale(1);
+    padding-top: 140px;
+  }
+
+  .connect-wallet-button {
+    width: 157px;
+    height: 60px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .font-title {
+    font-size: 5rem;
+    letter-spacing: 10px;
+    line-height: 1;
+  }
+
+  .new-width {
+    margin: 20px 10px 20px -10px;
+    width: 25rem;
+  }
+
+  .new-width2{
+    width: 28rem;
+    
+  }
+
+  .half-size {
+    transform: scale(0.5);
+    left: -40vw;
+    position: relative;
+  }
+
+  .new-width-left {
+    margin: 20px 10px 20px -10px;
+    width: 25rem;
+  }
+  .twofivefive {
+    font-size: 2.25rem;
+  }
+
+  .pdf-bg {
+    padding: 14px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.looks-rare-icon {
+  height: 4rem;
+  width: 4rem;
+  margin-top: -3px;
+  fill: #827790;
+}
